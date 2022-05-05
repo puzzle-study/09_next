@@ -197,7 +197,7 @@ puyosメンバーにはインスペクターで2つのぷよのオブジェク�
 この2つのPuyoPairプレハブの制御は、PlayDirectorが行います。
 
 - nextPuyoPairsのメンバー変数を導入して、スクリプトからNextとNextNextにアクセスできるようにする(12行目)
-  - 上の図で、nextPuyoPairsには、NextとNextNextが登録されているのことを確認できます
+  - 上の図で、nextPuyoPairsには、NextとNextNextが登録されていることを確認できます
 - NextとNextNextを更新するUpdateNextsViewメソッドを追加(26-30行目)
 - Spawnメソッドの呼び出しの後に、UpdateNextsViewを呼び出し(23, 69行目)
 
